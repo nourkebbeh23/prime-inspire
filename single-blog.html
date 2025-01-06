@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>single-blog page</title>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--start NavBar-->
+
+    <nav
+      class="navbar navbar-expand-lg bg-light border-bottom small blur-filter"
+    >
+      <div class="container-xxl">
+        <a href="index.html" class="navbar-brand">
+          <img src="./img/Prime-Inspire-Logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-content"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="courses.html" class="nav-link">courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="FAQ.html" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="Blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="Contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="ms-auto me-1 d-grid d-md-blok gap-2 mb-2 mb-md-0">
+            <a
+              href="#"
+              class="btn btn-sm btn-danger algin-item-center d-inline-flex text-center justify-content-center"
+            >
+              <svg
+                class="me-2"
+                width="16px "
+                height="16px"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  fill="#fafafa"
+                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                />
+              </svg>
+
+              sign up for free
+            </a>
+            <a
+              href="#"
+              class="btn btn-sm btn-warning algin-item-center d-inline-flex text-center justify-content-center"
+            >
+              <svg
+                class="me-2"
+                width="16px"
+                height="16px"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  fill="#fafafa"
+                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                />
+              </svg>
+
+              login
+            </a>
+          </div>
+
+          <form action="">
+            <div class="input-group">
+              <input
+                type="search"
+                class="form-control-sm"
+                placeholder="search for---"
+              />
+              <button type="submit" class="btn btn-success bt-sm">
+                <svg
+                  width="16px "
+                  height="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#ffffff"
+                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--end NavBar-->
+
+    <!--start header-->
+
+    <header class="main-header py-5 border-bottom">
+      <div class="container">
+        <div class="row algin-item-center gx-md-5">
+          <div class="col-md-6">
+            <div class="home-header-text-holder pe-md-5">
+              <h1 class="fs-3 fw-normal">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Delectus deleniti quidem incidunt fugiat molestias perspiciatis
+                voluptate quod dolorem quisquam architecto?
+              </h1>
+              <h2 class="fs-5 fw-light text-secondary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet doloribus praesentium fugiat nihil similique tenetur ex
+                odit eaque, alias, unde rerum voluptas beatae facere eligendi
+                nam! Perferendis obcaecati quod accusantium.
+              </h2>
+              <a
+                href="#"
+                class="btn btn-success mt-2 mb-3 d-inline-flex align-items-cecter justify-content-center"
+              >
+                <svg
+                  class="me-2"
+                  width="16px "
+                  height="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512"
+                >
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#f5f5f5"
+                    d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
+                  />
+                </svg>
+                sign-up to get started
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="home-header-image-holder">
+              <img
+                class="img-fuild rounded shadow-sm full-width"
+                src="./img/main-header.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--end header-->
+
+    <div class="py-5 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                sapiente iste excepturi culpa reiciendis iusto, nam optio
+                voluptas! Omnis nihil obcaecati ex soluta repellat dolorem
+                pariatur harum error ea. Velit numquam repellat voluptatum
+                commodi, totam vero assumenda eveniet error accusamus voluptate
+                impedit illum neque doloribus sint aliquid optio autem
+                laboriosam possimus fugiat harum, magnam quia eos quos. Impedit,
+                qui magni voluptatem velit, repellendus temporibus alias
+                corporis voluptatum numquam at quo harum perferendis eveniet
+                magnam culpa aut eum dolor voluptates! Temporibus ad est
+                commodi, facere nobis deserunt tenetur corporis veritatis
+                repellat debitis perferendis fugiat rem nihil odit eum! Ipsum,
+                voluptas laboriosam! Voluptatum vero nihil ratione labore magni
+                tempora nostrum, vitae porro natus sed iure commodi quo? Ipsum,
+                quaerat explicabo fugit assumenda est sint! Architecto autem
+                perferendis dolores quos, tempora recusandae quibusdam, odio
+                soluta et sit esse vel maxime veniam aut aliquid magni obcaecati
+                eum asperiores, placeat quae iure laudantium eveniet. Placeat
+                modi repellendus enim unde, iusto blanditiis voluptate at
+                delectus, provident facilis tempora harum. Architecto ab quidem
+                aliquid, quas voluptatum nisi. Laborum et temporibus modi fugit
+                deleniti perferendis perspiciatis, consequuntur officiis magnam
+                porro enim assumenda optio repudiandae. Nobis sunt accusantium
+                ab, quos, doloribus sequi explicabo illum natus fugit architecto
+                adipisci nulla!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                quisquam neque dicta deserunt illum adipisci officiis
+                perspiciatis repellendus odit delectus voluptas deleniti magni
+                modi beatae itaque aperiam animi, quis consequuntur voluptates
+                quae. Eligendi vero, debitis magnam expedita qui impedit quaerat
+                dicta alias dolorum. Hic, recusandae possimus. Maxime nulla sed
+                aliquid provident rerum, cupiditate aspernatur, reiciendis id
+                fugiat blanditiis, molestias voluptatum iste ad dicta quidem.
+                Cupiditate in odio fugiat libero, nemo quasi magni facilis, quo
+                doloribus qui culpa totam iure incidunt eos corrupti. Eaque
+                exercitationem esse asperiores doloribus aut cumque alias
+                laborum commodi ducimus mollitia, est veritatis, voluptas quidem
+                provident maiores id obcaecati deserunt labore adipisci dolorem,
+                unde reiciendis suscipit! Explicabo repudiandae cumque optio
+                placeat fugit minus distinctio illo voluptates, corporis eos
+                numquam itaque harum culpa dolorum facere blanditiis. Ullam,
+                pariatur minima? Provident illum labore pariatur aliquam
+                temporibus voluptatem, officiis culpa deserunt eum dolores quam
+                quibusdam magnam ducimus nesciunt sed architecto? Consequuntur
+                impedit qui recusandae voluptatum, in illo enim sapiente quasi
+                velit ducimus, ipsum dignissimos quis ab numquam, alias nobis
+                illum reiciendis dolorem. Voluptatum veritatis alias recusandae,
+                maxime expedita voluptas debitis ratione eveniet? Veniam tempora
+                aperiam, tempore maiores incidunt est ducimus voluptatem quidem
+                sit sint illo laudantium autem voluptas quam consequuntur,
+                impedit sequi repudiandae! Deleniti facere earum delectus qui
+                iure inventore sapiente rerum amet officia itaque voluptatibus
+                error, neque dolorem magni consectetur illo! Est commodi iste id
+                voluptates voluptatem dicta sint nesciunt reprehenderit sed.
+                Placeat ut earum sequi excepturi, neque possimus totam tempore
+                obcaecati vero enim cum perspiciatis reprehenderit quia cumque
+                quam, magni dolorum laudantium. A sit iusto maiores accusantium
+                molestias voluptas porro nobis corrupti numquam fuga autem sequi
+                repellendus laborum quasi quisquam deserunt ea, hic odio
+                adipisci. Reiciendis accusantium earum nobis maiores asperiores
+                mollitia, repellat, cum deserunt temporibus vel eligendi.
+                Eligendi odit similique neque maxime nam quisquam molestiae esse
+                error unde fugit laborum, vero iste amet consectetur eaque,
+                libero minus atque obcaecati autem quae. Corporis voluptate
+                explicabo harum est? Debitis doloremque soluta, aut suscipit
+                laborum, quo est alias repellendus nam distinctio, ea nobis quod
+                aspernatur! Nisi ab voluptatum, sint fugit repudiandae quam!
+                Perferendis enim necessitatibus aut excepturi sed quis, possimus
+                libero, dolorum nulla magni vitae dicta repellendus animi ipsum
+                eveniet, illum beatae odio. Officia placeat commodi mollitia
+                deserunt vitae eveniet molestiae, modi aliquid facere eos
+                deleniti! Libero rerum repellat ipsam eligendi molestiae dolor
+                labore culpa consequatur tempora maiores voluptatem deserunt,
+                quod maxime? Nihil corrupti omnis beatae corporis nostrum
+                facilis praesentium fuga error. Voluptas voluptate eius
+                asperiores libero dolores laudantium reiciendis corrupti,
+                explicabo commodi eligendi molestias laborum quibusdam. Vel
+                magni ipsa quo, quaerat omnis voluptates unde iusto, eveniet
+                deleniti eum odit minima, expedita sint commodi aliquam fugit
+                blanditiis exercitationem corporis consequatur. Recusandae
+                voluptatem adipisci consequuntur, illum sapiente cumque facere
+                soluta sint amet distinctio nam? Similique corrupti veniam,
+                repellendus quibusdam possimus, rem placeat assumenda ea quaerat
+                labore explicabo. Assumenda doloribus, dignissimos perferendis,
+                facilis consectetur ducimus nostrum incidunt reprehenderit
+                soluta ad alias deserunt accusamus ab fuga. Voluptatem provident
+                iusto beatae fuga itaque deserunt exercitationem quidem
+                accusantium numquam. Provident consequuntur, in cum adipisci
+                excepturi sint officia est quia dolor culpa nostrum ut
+                consectetur voluptatibus magni veritatis doloremque deleniti
+                autem doloribus perferendis reprehenderit dicta saepe molestias
+                recusandae omnis. Nemo maiores adipisci laboriosam doloribus,
+                aliquam dolore accusamus similique expedita soluta consequatur
+                quod commodi quo, quas alias numquam eligendi corrupti! Ut
+                sapiente quod, in reiciendis, earum quasi rerum maxime
+                dignissimos magnam modi dolor laboriosam alias inventore beatae
+                quia quaerat id. Modi impedit, unde at deserunt in repellendus
+                facere? Eligendi, nisi error? Eius culpa fuga perspiciatis fugit
+                quasi vitae similique et inventore! Assumenda neque repellat
+                fuga iure vel ex quam illo minus! Veniam fugit aut praesentium
+                libero atque?
+              </p>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-md-3">
+<div class="list-group small mb-3">
+    <div class="list-group-item text-bg-light fw-bold">Archives</div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+
+
+
+</div>
+<div class="list-group small mb-3">
+    <div class="list-group-item text-bg-light fw-bold">Archives</div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+<div class="list-group-item"><a href="#" class="list-group-item-action d-flex justify-content-between align-items-center">2024 <span class="badge text-bg-warning rounded">14</span></a></div>
+
+
+
+</div>
+
+
+
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--start subscripe-->
+    <section class="subscripe py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="text-white text-md-end text-center">
+              <h5 class="fs-4 fw-light mb-md-0 mb-3">
+                subscripe for newsletters
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex justify-content-center">
+              <div class="input-group">
+                <input
+                  placeholder="your email"
+                  class="form-control-sm"
+                  type="email"
+                />
+                <button
+                  class="btn btn-sm btn-success d-inline-flex align-items-center"
+                >
+                  <svg
+                    class="me-2"
+                    width="15px"
+                    height="16px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      fill="#f5f5f5"
+                      d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                    />
+                  </svg>
+                  subscripe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end subscripe-->
+    <footer class="main-footer text-bg-dark py-5 small">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="brand-icon mb-2">
+              <img src="./img/Prime-Inspire-Logo-dark.svg" alt="" />
+            </div>
+            <address class="small text-secondary">
+              turkey istanbul sisli 5466
+            </address>
+            <p class="small text-secondary">contact &commat; nourkebbeh.com</p>
+          </div>
+
+          <div class="col-md-2">
+            <h6>Main Menu</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2">
+            <h6>second Menu</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+              <li>
+                <a href="" class="text-decorqation-none text-secondary">link</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5">
+            <h6>Follow us</h6>
+            <p>
+              <a
+                href=""
+                class="btn btn-primary btn-sm rounded-pill px-md-3 d-inline-flex align-items-center"
+              >
+                <svg
+                  class="me-2"
+                  height="16px"
+                  width="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#ffffff"
+                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                  />
+                </svg>
+                <span class="d-md-block d-none">facebook</span></a
+              >
+              <a
+                href=""
+                class="btn btn-info btn-sm rounded-pill px-md-3 d-inline-flex align-items-center"
+              >
+                <svg
+                  class="me-2"
+                  height="16px"
+                  width="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#2a0e0e"
+                    d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"
+                  />
+                </svg>
+                <span class="d-md-block d-none">tiwtter</span></a
+              >
+              <a
+                href=""
+                class="btn btn-danger btn-sm rounded-pill px-md-3 d-inline-flex align-items-center"
+              >
+                <svg
+                  class="me-2"
+                  height="16px"
+                  width="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                >
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#ffffff"
+                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
+                  />
+                </svg>
+                <span class="d-md-block d-none">youtube</span></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--start copyrigth-->
+    <div class="py-4 small" style="background-color: black">
+      <div class="container">
+        <div class="row justify-content-center text-center text-white">
+          <p>copyrigth &copy; 2024 nourkebbeh</p>
+        </div>
+      </div>
+    </div>
+
+    <!--end copyrigth-->
+
+    <!--start blurfilter-->
+    <div
+      class="fixed-bottom d-md-none d-block d-flex justify-content-center p-3 shadow-lg blur-filter"
+    >
+      <a
+        href="#"
+        class="btn btn-warning btn-sm small rounded-pill px-3 fw-bold d-inline-flex align-items-center"
+      >
+        <svg
+          class="me-2"
+          width="16px "
+          height="16px"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 640 512"
+        >
+          <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path
+            fill="#fafafa"
+            d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+          />
+        </svg>
+        sign-up for free
+      </a>
+    </div>
+
+    <!--end blurfilter-->
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
